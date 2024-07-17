@@ -31,7 +31,7 @@ createApp({
         }
     },
 
-    methods: {//aggiuntto una function 
+    methods: {//aggiunto una function 
         next_image() {
             if (this.active_image == this.slides.length - 1) {
                 this.active_image = 0;
