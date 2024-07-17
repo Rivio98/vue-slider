@@ -1,9 +1,11 @@
-import { createApp, ref } from 'vue'//
+const { createApp, ref } = Vue
 
 createApp({
-    setup() {
+    data() {
         return {
-            slides =[
+            active_image: 0,
+
+            slides: [//array di oggetti
                 {
                     image: 'img/01.webp',
                     title: 'Marvel\'s Spiderman Miles Morale',
@@ -25,7 +27,7 @@ createApp({
                     title: "Marvel's Avengers",
                     text: 'Marvel\'s Avengers is an epic, third-person, action-adventure game that combines an original, cinematic story with single-player and co-operative gameplay.',
                 }
-            ];
+            ]
         }
     }
 }).mount('#app')
