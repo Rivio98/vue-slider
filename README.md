@@ -12,3 +12,13 @@ Partendo dal markup della versione svolta in js plain, rifare lo slider ma quest
 - il riciclo spesso va a braccetto con le funzioni! Sapendole sfruttare bene, l'esercizio si riduce a poche righe.
 Buon lavoro e buon divertimento.
 
+1 attivo vue
+
+2 faccio in modo di ciclare le img attraverso vue nel html  con v-for
+
+3 in base al inidice ed utilizzando active, creo pulsanti avanti ed indietro , che al click modificheranno l'indice, cosi facendo applico vshow in modo da vedere le img solo una alla volta
+
+4 uso v-for per ciclare le img del thumbnail ed uso lo stesso metodo sopra per invece fare in modo che l'immagine corrispondete a quella sopra abbia una miinore opacità e sembri quindi attiva
+
+
+
